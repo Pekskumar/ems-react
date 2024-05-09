@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/ems-react/static/css/main.c3f1bf4e.css",
-    "main.js": "/ems-react/static/js/main.5d913be2.js",
+    "main.css": "/ems-react/static/css/main.fa076cd0.css",
+    "main.js": "/ems-react/static/js/main.de0581e3.js",
     "static/media/clouda.jpg": "/ems-react/static/media/clouda.5d260db59bfe42ca9e86.jpg",
     "static/media/red-bridge1.jpg": "/ems-react/static/media/red-bridge1.a080fc4c9c67a5b5f510.jpg",
     "static/media/eve.gif": "/ems-react/static/media/eve.0f466aba978e3b722287.gif",
@@ -9,11 +9,11 @@
     "static/media/sun.gif": "/ems-react/static/media/sun.147bf00738e099cf0838.gif",
     "static/media/logonew.png": "/ems-react/static/media/logonew.40dd0b093ff850228fa2.png",
     "index.html": "/ems-react/index.html",
-    "main.c3f1bf4e.css.map": "/ems-react/static/css/main.c3f1bf4e.css.map",
-    "main.5d913be2.js.map": "/ems-react/static/js/main.5d913be2.js.map"
+    "main.fa076cd0.css.map": "/ems-react/static/css/main.fa076cd0.css.map",
+    "main.de0581e3.js.map": "/ems-react/static/js/main.de0581e3.js.map"
   },
   "entrypoints": [
-    "static/css/main.c3f1bf4e.css",
-    "static/js/main.5d913be2.js"
+    "static/css/main.fa076cd0.css",
+    "static/js/main.de0581e3.js"
   ]
 }
