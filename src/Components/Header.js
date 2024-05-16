@@ -8,8 +8,7 @@ const Header = () => {
   let dispatch = useDispatch();
   const CreateEventFlag = useSelector(
     (state) => state.EventStore.CreateEventFlag
-  );
-  console.log("CreateEventFlag::", CreateEventFlag);
+  );  
   const [EventModalshow, setEventModalshow] = useState(false);
 
   useEffect(() => {

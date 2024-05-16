@@ -38,7 +38,6 @@ const Sidebar = () => {
   useEffect(() => {
     if (window.location.href) {
       let temp = window.location.href.split("/");
-      console.log(temp);
       setActiveTab(temp[temp?.length - 1]);
     }
   }, [activeTab]);

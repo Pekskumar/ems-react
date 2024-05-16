@@ -159,7 +159,7 @@ const CreateUpdateEventModal = (props) => {
     });
 
     const invalidFeedbackElement = document.querySelector(".invalid-feedback");
-   
+
 
     if (invalidFeedbackElement) {
       invalidFeedbackElement.scrollIntoView({ behavior: "smooth" });
@@ -236,7 +236,7 @@ const CreateUpdateEventModal = (props) => {
       keyboard={false}
     >
       <Modal.Header closeButton>
-        <Modal.Title>Create Event</Modal.Title>
+        <Modal.Title>{props?.type === "edit" ? 'Update' : 'Create'} Event</Modal.Title>
       </Modal.Header>
       <Form onSubmit={(e) => handleSubmit(e)} className="authflow-form">
         <Modal.Body>
@@ -344,14 +344,14 @@ const CreateUpdateEventModal = (props) => {
                     }
                     // showTimeSelect
                     // timeFormat="HH:mm"
-                    
+
                     timeIntervals={15}
                     // timeCaption="time"
                     dateFormat="MMMM d, yyyy h:mm aa"
                     showIcon
                     showTimeInput
                     icon={<DatepickerIcon />}
-                    // minDate={input.start_date}
+                  // minDate={input.start_date}
                   />
                 </div>
                 {input.errors.password && (

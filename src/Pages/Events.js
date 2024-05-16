@@ -45,7 +45,7 @@ const Events = () => {
   const CreateEventFlag = useSelector(
     (state) => state.EventStore.CreateEventFlag
   );
-  console.log("CreateEventFlag::", CreateEventFlag);
+  
 
   useEffect(() => {
     if (window.location.href.includes("eventdetail")) {      
