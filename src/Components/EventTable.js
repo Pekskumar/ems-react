@@ -23,14 +23,14 @@ const EventTable = (props) => {
         <h5 className="m-0">Upcomming Events</h5>
       </div>
       <Row>
-        {props.data?.length > 0 &&
+        {props.data?.length > 0 ?
           props.data?.map((item, index) => (
             <Col md={6} key={index}>
               <div className="pt-3">
                 <YouMayEvent data={item} fnChangePAram={fnChangePAram} />
               </div>
             </Col>
-          ))}
+          )):<div className="text-center my-5">No Envents Found.</div>}
       </Row>
       {EventModalshow && (
         <CreateUpdateEventModal
